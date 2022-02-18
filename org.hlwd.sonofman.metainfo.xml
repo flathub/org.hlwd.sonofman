@@ -80,10 +80,7 @@ You can find them on their stores and F-Droid.
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
-    <release version="2.0.0" date="2022-02-20">
-      <description>Rebirth of the project.</description>
-    </release>
-    <release version="1.4.1" date="2022-01-22">
+    <release version="2.0.0" date="2022-02-18">
       <description>
 • English Bible: KJV 2000 (modern English)
 • French Bible: Ostervald
@@ -95,6 +92,9 @@ You can find them on their stores and F-Droid.
 • LEFT/RIGHT to browse articles/parables
 • Fixes
       </description>
+    </release>
+    <release version="1.4.1" date="2022-01-22">
+      <description>Rebirth of the project.</description>
     </release>
   </releases>
 </component>
