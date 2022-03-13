@@ -12,7 +12,7 @@
   <description>
 <p># aka BibleMultiTheSonOfMan. 
 
-Easy to use with quick searches, parables, articles.
+Easy to use with quick searches, parables, articles, cross references.
 As there is not a lot of Bible applications in Terminal, my app can be useful.
 
 Bibles included: King James Version, Segond, Ostervald, Diodati, Reina Valera, Almeida, Schlachter.
@@ -80,6 +80,14 @@ You can find them on their stores and F-Droid.
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="2.1.0" date="2022-03-11">
+      <description>
+• History
+• Cross references
+• Contextual menu
+• +Color modes
+      </description>
+    </release>
     <release version="2.0.0" date="2022-02-18">
       <description>
 • English Bible: KJV 2000 (modern English)
