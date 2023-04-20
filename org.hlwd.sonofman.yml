@@ -30,7 +30,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan.git
-        tag: 'v2.6.0'
+        tag: 'v3.0.1'
       - type: file
         path: org.hlwd.sonofman.metainfo.xml
       - type: file
