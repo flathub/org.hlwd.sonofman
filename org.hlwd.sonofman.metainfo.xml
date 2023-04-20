@@ -11,12 +11,12 @@
   <summary>Bible multi languages, free, offline, no advertising, in English, French, Italian, Spanish, Portuguese, German (partially) for Terminal.</summary>
   <description>
 <p># aka BibleMultiTheSonOfMan.</p>
-<p>Easy to use with quick searches, parables, articles, cross references, favorites, history.
-As there is not a lot of Bible applications in Terminal, my app can be useful.</p>
+<p>Easy to use with quick searches, parables, articles, cross references, favorites, history. As there is not a lot of Bible applications in Terminal, my app can be useful. The app exists in several packages: Flatpak, Snap, PyPI and can be installed on Linux, RaspberryPI, all ARM, Mac, Windows (Cygwin), Android (Termux).</p>
 <ul>
-    <li>Bibles included: King James Version, Segond, Ostervald, Diodati, Reina Valera, Almeida, Schlachter</li>
     <li>Works with Python and Ncurses</li>
     <li>The app is very low in memory and CPU usage</li>
+    <li>Check my website if you need more graphical interfaces. The app has two brothers :)</li>
+    <li>Bibles included: King James Version, Segond, Ostervald, Diodati, Reina Valera, Almeida, Schlachter</li>
 </ul>
 <p>
 Please share the info with your friends. 
@@ -30,7 +30,7 @@ You can find them on their stores and F-Droid.
 </p>
 <ul>
     <li>If you have problem in your Terminal when quitting the application, type "reset" to restore the terminal or CTRL-D</li>
-    <li>If characters are missing, please install the utf8 characters with "sudo dpkg-reconfigure locales": select en_US, es_ES, fr_FR, it_IT, pt_PT (UTF8). But it also works with en_GB, fr_BE</li>
+    <li>If characters are missing, please install the utf8 characters with "sudo dpkg-reconfigure locales": select en_US, es_ES, fr_FR, it_IT, pt_PT (UTF8). But it also works with en_GB, fr_BE...</li>
 </ul>
 </description>
   <categories>
@@ -42,10 +42,16 @@ You can find them on their stores and F-Droid.
   </provides>
   <screenshots>
     <screenshot type="default">
-      <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som00.png</image>
+      <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som09.png</image>
     </screenshot>
     <screenshot>
-      <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som01.png</image>
+      <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som03.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som04.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som05.png</image>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som06.png</image>
@@ -80,6 +86,22 @@ You can find them on their stores and F-Droid.
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="3.0.1" date="2023-04-18">
+      <description>
+        <ul>
+            <li>Spanish Bible: Reina Valera Actualizada 1989</li>
+            <li>Italian Bible: Nuova Diodati 1991</li>
+            <li>---</li>
+            <li>Works on Windows (with Cygwin) and PYPI, Git</li>
+            <li>Works on MacOS with PYPI, Git</li>
+            <li>Works on Android (with Termux) and PYPI, Git</li>
+            <li>SPACEBAR key has been assigned to close menu as ESC key is problematic on some systems</li>
+            <li>Menu bar has been replaced with B,P,A... keys to use standard keyboard but you can still use Fn keys</li>
+            <li>Better output logs when quitting</li>
+            <li>Keep favorites, history when upgrading the app in most cases</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.6.0" date="2022-08-30">
       <description>
           <p>• About: Website • Article: How to be saved? • Article: Additional tools</p>
