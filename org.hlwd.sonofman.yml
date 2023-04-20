@@ -16,9 +16,14 @@ modules:
         sha256: 5bd9d4ed1ceaac9ea023d86bf1c1632cd3b172dce4a193a72a94e1d9df87a62e
   - name: xclip 
     buildsystem: autotools
-    sources: 
+    sources:
       - type: git
         url: https://github.com/astrand/xclip.git
+        tag: '0.13'
+        commit: 9aa7090c3b8b437c6489edca32ae43d82e0c1281
+        x-checker-data:
+          type: git
+          tag-pattern: ^(\d+\.\d+)$
   - name: sonofman
     buildsystem: simple
     build-commands:
