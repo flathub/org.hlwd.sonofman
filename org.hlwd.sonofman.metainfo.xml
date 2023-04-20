@@ -91,7 +91,7 @@ You can find them on their stores and F-Droid.
         <ul>
             <li>Spanish Bible: Reina Valera Actualizada 1989</li>
             <li>Italian Bible: Nuova Diodati 1991</li>
-            <li>-</li>
+            <li>---</li>
             <li>Works on Windows (with Cygwin) and PYPI, Git</li>
             <li>Works on MacOS with PYPI, Git</li>
             <li>Works on Android (with Termux) and PYPI, Git</li>
