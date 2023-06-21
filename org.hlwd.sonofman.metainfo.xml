@@ -8,7 +8,7 @@
   <url type="homepage">https://hotlittlewhitedog.gitlab.io/biblemulti</url>
   <url type="bugtracker">https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/issues</url>
   <name>Sonofman</name>
-  <summary>Bible multi languages, free, offline, no advertising, in English, French, Italian, Spanish, Portuguese, German (partially) for Terminal.</summary>
+  <summary>Bible multi languages, free, offline, no advertising, in English, French, Italian, Spanish, Portuguese for Terminal.</summary>
   <description>
 <p># aka BibleMultiTheSonOfMan.</p>
 <p>Easy to use with quick searches, parables, articles, cross references, favorites, history. As there is not a lot of Bible applications in Terminal, my app can be useful. The app exists in several packages: Flatpak, Snap, PyPI and can be installed on Linux, RaspberryPI, all ARM, Mac, Windows (Cygwin), Android (Termux).</p>
@@ -16,7 +16,7 @@
     <li>Works with Python and Ncurses</li>
     <li>The app is very low in memory and CPU usage</li>
     <li>Check my website if you need more graphical interfaces. The app has two brothers :)</li>
-    <li>Bibles included: King James Version, Segond, Ostervald, Diodati, Reina Valera, Almeida, Schlachter</li>
+    <li>Bibles included: King James Version, Louis Segond, Ostervald, Diodati, Reina Valera, Almeida, Schlachter, Arabic Bible (Smith and Van Dyke), Hindi Bible, Chinese Bible (Chinese Union Version Simplified), Japanese Bible (New Japanese Bible 1973), Russian Bible (Russian Synodal Translation 1876).</li>
 </ul>
 <p>
 Please share the info with your friends. 
@@ -30,7 +30,7 @@ You can find them on their stores and F-Droid.
 </p>
 <ul>
     <li>If you have problem in your Terminal when quitting the application, type "reset" to restore the terminal or CTRL-D</li>
-    <li>If characters are missing, please install the utf8 characters with "sudo dpkg-reconfigure locales": select en_US, es_ES, fr_FR, it_IT, pt_PT (UTF8). But it also works with en_GB, fr_BE...</li>
+    <li>If characters are missing, please install the utf8 characters with "sudo dpkg-reconfigure locales": select en_US, es_ES, fr_FR, it_IT, pt_PT...</li>
 </ul>
 </description>
   <categories>
@@ -62,6 +62,12 @@ You can find them on their stores and F-Droid.
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som08.png</image>
     </screenshot>
+    <screenshot>
+      <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som10.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som11.png</image>
+    </screenshot>
   </screenshots>
   <content_rating type="oars-1.0">
     <content_attribute id="violence-cartoon">none</content_attribute>
@@ -86,6 +92,20 @@ You can find them on their stores and F-Droid.
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="3.1.0" date="2023-06-20">
+      <description>
+        <ul>
+            <li>Hindi Bible: Hindi Indian Revised Version 2017</li>
+            <li>Arabic Bible: Smith and Van Dyke 1865</li>
+            <li>Chinese Bible: Chinese Union Version Simplified</li>
+            <li>Japanese Bible: New Japanese Bible 1973</li>
+            <li>Russian Bible: Russian Synodal Translation 1876</li>
+            <li>New setting for some Bibles: Language of User interface</li>
+            <li>Removed German translation (please use the new setting)</li>
+            <li>New scrolling and keys</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.0.1" date="2023-04-18">
       <description>
         <ul>
