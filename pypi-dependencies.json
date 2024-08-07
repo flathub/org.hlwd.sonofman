@@ -2,7 +2,7 @@
     "name": "python3-xerox",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"setuptools\" \"xerox\" \"wcwidth\" \"importlib_resources\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"setuptools\" \"xerox\" \"wcwidth\" --no-build-isolation"
     ],
     "sources": [
         {
@@ -19,11 +19,6 @@
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/5e/11/487b18cc768e2ae25a919f230417983c8d5afa1b6ee0abd8b6db0b89fa1d/setuptools-72.1.0.tar.gz",
             "sha256": "8d243eff56d095e5817f796ede6ae32941278f542e0f941867cc05ae52b162ec"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/c8/9d/6ee73859d6be81c6ea7ebac89655e92740296419bd37e5c8abdb5b62fd55/importlib_resources-6.4.0.tar.gz",
-            "sha256": "cdb2b453b8046ca4e3798eb1d84f3cce1446a0e8e7b5ef4efb600f19fc398145"
         }
     ]
 }
