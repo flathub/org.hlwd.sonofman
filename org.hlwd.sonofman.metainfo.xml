@@ -9,7 +9,7 @@
   <url type="bugtracker">https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/issues</url>
   <name>Sonofman</name>
   <summary>Bible multi languages, free, offline, no advertising, in English, French, Italian, Spanish, Portuguese for Terminal.</summary>
-  <launchable type="desktop-id">org.hlwd.sonofman</launchable>
+  <launchable type="desktop-id">org.hlwd.sonofman.desktop</launchable>
   <description>
 <p># aka BibleMultiTheSonOfMan.</p>
 <p>Easy to use with quick searches, parables, articles, cross references, favorites, history. As there is not a lot of Bible applications in Terminal, my app can be useful. The app exists in several packages: Flatpak, Snap, PyPI and can be installed on Linux, RaspberryPI, all ARM, Mac, Windows (Cygwin), Android (Termux).</p>
