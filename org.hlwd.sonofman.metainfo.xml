@@ -9,6 +9,7 @@
   <url type="bugtracker">https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/issues</url>
   <name>Sonofman</name>
   <summary>Bible multi languages, free, offline, no advertising, in English, French, Italian, Spanish, Portuguese for Terminal.</summary>
+  <launchable type="desktop-id">org.hlwd.sonofman</launchable>
   <description>
 <p># aka BibleMultiTheSonOfMan.</p>
 <p>Easy to use with quick searches, parables, articles, cross references, favorites, history. As there is not a lot of Bible applications in Terminal, my app can be useful. The app exists in several packages: Flatpak, Snap, PyPI and can be installed on Linux, RaspberryPI, all ARM, Mac, Windows (Cygwin), Android (Termux).</p>
@@ -43,30 +44,39 @@ You can find them on their stores or via my website.
   <screenshots>
     <screenshot type="default">
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som09.png</image>
+      <caption>With dim attribute</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som03.png</image>
+      <caption>Focus on verse</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som04.png</image>
+      <caption>Example of search result</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som05.png</image>
+      <caption>Blue mode</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som06.png</image>
+      <caption>Customization of colors by Bibles</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som07.png</image>
+      <caption>Customization with underline attribute</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som08.png</image>
+      <caption>Customization of colors by Bibles</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som10.png</image>
+      <caption>Arabic Bible: from right to left</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som11.png</image>
+      <caption>Various languages: Russian, Chinese...</caption>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.0">
@@ -101,6 +111,7 @@ You can find them on their stores or via my website.
             <li>German Bible: Elberfelder 1932</li>
             <li>Romanian Bible: Romanian Cornilescu 1928</li>
             <li>Polish Bible: Biblia Warszawska 1975</li>
+            <li>Bug fixes</li>
         </ul>
       </description>
     </release>

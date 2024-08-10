@@ -6,6 +6,7 @@ command: som
 finish-args:
   - --socket=x11
   - --share=network
+  - --share=ipc
 modules:
   - pypi-dependencies.json 
   - name: libxmu-dev
