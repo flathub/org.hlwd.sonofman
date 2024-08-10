@@ -2,7 +2,7 @@
     "name": "python3-xerox",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"xerox\" \"wcwidth\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"setuptools\" \"xerox\" \"wcwidth\" --no-build-isolation"
     ],
     "sources": [
         {
@@ -12,8 +12,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/5e/5f/1e4bd82a9cc1f17b2c2361a2d876d4c38973a997003ba5eb400e8a932b6c/wcwidth-0.2.6.tar.gz",
-            "sha256": "a5220780a404dbe3353789870978e472cfe477761f06ee55077256e509b156d0"
+            "url": "https://files.pythonhosted.org/packages/6c/63/53559446a878410fc5a5974feb13d31d78d752eb18aeba59c7fef1af7598/wcwidth-0.2.13.tar.gz",
+            "sha256": "72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/5e/11/487b18cc768e2ae25a919f230417983c8d5afa1b6ee0abd8b6db0b89fa1d/setuptools-72.1.0.tar.gz",
+            "sha256": "8d243eff56d095e5817f796ede6ae32941278f542e0f941867cc05ae52b162ec"
         }
     ]
 }

@@ -5,10 +5,11 @@
   <update_contact>hotlittlewhitedog@gmail.com</update_contact>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
-  <url type="homepage">https://hotlittlewhitedog.gitlab.io/biblemulti</url>
+  <url type="homepage">https://www.biblemulti.org</url>
   <url type="bugtracker">https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/issues</url>
   <name>Sonofman</name>
   <summary>Bible multi languages, free, offline, no advertising, in English, French, Italian, Spanish, Portuguese for Terminal.</summary>
+  <launchable type="desktop-id">org.hlwd.sonofman.desktop</launchable>
   <description>
 <p># aka BibleMultiTheSonOfMan.</p>
 <p>Easy to use with quick searches, parables, articles, cross references, favorites, history. As there is not a lot of Bible applications in Terminal, my app can be useful. The app exists in several packages: Flatpak, Snap, PyPI and can be installed on Linux, RaspberryPI, all ARM, Mac, Windows (Cygwin), Android (Termux).</p>
@@ -16,7 +17,7 @@
     <li>Works with Python and Ncurses</li>
     <li>The app is very low in memory and CPU usage</li>
     <li>Check my website if you need more graphical interfaces. The app has two brothers :)</li>
-    <li>Bibles included: King James Version, Louis Segond, Ostervald, Diodati, Reina Valera, Almeida, Schlachter, Arabic Bible (Smith and Van Dyke), Hindi Bible, Chinese Bible (Chinese Union Version Simplified), Japanese Bible (New Japanese Bible 1973), Russian Bible (Russian Synodal Translation 1876).</li>
+    <li>Bibles included: King James Version, Louis Segond, Ostervald, Diodati, Reina Valera, Almeida, Schlachter, Elberfelder, Romanian Bible (Romanian Cornilescu 1928), Polish Bible (Biblia Warszawska 1975), Russian Bible (Russian Synodal Translation 1876), Turkish Bible (New Turkish Bible 2001), Swahili Bible (Swahili Union Version 1997), Arabic Bible (Smith and Van Dyke), Hindi Bible, Bengali Bible (Bengali C.L. Bible 2016), Chinese Bible (Chinese Union Version Simplified), Japanese Bible (New Japanese Bible 1973).</li>
 </ul>
 <p>
 Please share the info with your friends. 
@@ -26,7 +27,7 @@ Tribulations are at the door.
 </p>
 <p>
 For the story: the app was created after Bible Multi The Light (Android) and before Bible Multi The Life (Android, iPhone, iPad, Big Sur, Mac, Linux).
-You can find them on their stores and F-Droid.
+You can find them on their stores or via my website.
 </p>
 <ul>
     <li>If you have problem in your Terminal when quitting the application, type "reset" to restore the terminal or CTRL-D</li>
@@ -43,30 +44,39 @@ You can find them on their stores and F-Droid.
   <screenshots>
     <screenshot type="default">
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som09.png</image>
+      <caption>With dim attribute</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som03.png</image>
+      <caption>Focus on verse</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som04.png</image>
+      <caption>Example of search result</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som05.png</image>
+      <caption>Blue mode</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som06.png</image>
+      <caption>Customization of colors by Bibles</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som07.png</image>
+      <caption>Customization with underline attribute</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som08.png</image>
+      <caption>Customization of colors by Bibles</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som10.png</image>
+      <caption>Arabic Bible: from right to left</caption>
     </screenshot>
     <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som11.png</image>
+      <caption>Various languages: Russian, Chinese...</caption>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.0">
@@ -92,6 +102,19 @@ You can find them on their stores and F-Droid.
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="3.2.1" date="2024-08-04">
+      <description>
+        <ul>
+            <li>Turkish Bible: New Turkish Bible 2001</li>
+            <li>Bengali Bible: Bengali C.L. Bible 2016</li>
+            <li>Swahili Bible: Swahili Union Version 1997</li>
+            <li>German Bible: Elberfelder 1932</li>
+            <li>Romanian Bible: Romanian Cornilescu 1928</li>
+            <li>Polish Bible: Biblia Warszawska 1975</li>
+            <li>Bug fixes</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.1.0" date="2023-06-20">
       <description>
         <ul>
