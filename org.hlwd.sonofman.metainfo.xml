@@ -43,6 +43,10 @@ You can find them on their stores or via my website.
   </provides>
   <screenshots>
     <screenshot type="default">
+      <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som12.png</image>
+      <caption>Short verse references</caption>
+    </screenshot>
+    <screenshot>
       <image>https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/raw/master/screenshots/som09.png</image>
       <caption>With dim attribute</caption>
     </screenshot>
@@ -102,6 +106,14 @@ You can find them on their stores or via my website.
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="3.3.0" date="2024-08-24">
+      <description>
+        <ul>
+            <li>Better performance</li>
+            <li>Verse references are displayed if needed</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.2.1" date="2024-08-04">
       <description>
         <ul>
