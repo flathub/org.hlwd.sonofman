@@ -1,11 +1,10 @@
 app-id: org.hlwd.sonofman
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 command: som
 finish-args:
   - --socket=x11
-  - --share=network
   - --share=ipc
 modules:
   - pypi-dependencies.json 
@@ -36,7 +35,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan.git
-        tag: 'v3.3.0'
+        tag: 'v3.4.0'
       - type: file
         path: org.hlwd.sonofman.metainfo.xml
       - type: file
