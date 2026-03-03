@@ -7,9 +7,14 @@
   <project_license>GPL-3.0</project_license>
   <url type="homepage">https://www.biblemulti.org</url>
   <url type="bugtracker">https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/issues</url>
+  <url type="vcs-browser">https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan</url>
   <name>Sonofman</name>
-  <summary>Offline Bible multi languages for Terminal</summary>
+  <summary>Offline Bible for Terminal</summary>
   <launchable type="desktop-id">org.hlwd.sonofman.desktop</launchable>
+  <branding>
+      <color type="primary" scheme_preference="light">#ffc4be</color>
+      <color type="primary" scheme_preference="dark">#acbbaa</color>
+  </branding>
   <description>
 <p># aka BibleMultiTheSonOfMan.</p>
 <p>Bible multi languages, free, offline, no advertising, in English, French, Italian, Spanish, Portuguese.</p>
@@ -18,14 +23,9 @@
     <li>Works with Python and Ncurses</li>
     <li>The app is very low in memory and CPU usage</li>
     <li>Check my website if you need more graphical interfaces. The app has two brothers :)</li>
-    <li>Bibles included: King James Version, Bible in Basic English, World English Bible, Louis Segond, Ostervald, Darby, Diodati, Reina Valera, Almeida, Schlachter, Elberfelder, Romanian Bible (Romanian Cornilescu 1928), Polish Bible (Biblia Warszawska 1975), Russian Bible (Russian Synodal Translation 1876), Turkish Bible (New Turkish Bible 2001), Swahili Bible (Swahili Union Version 1997), Arabic Bible (Smith and Van Dyke), Hindi Bible, Bengali Bible (Bengali C.L. Bible 2016), Chinese Bible (New Chinese Version Simplified), Japanese Bible (New Japanese Bible 1973).</li>
+    <li>Bibles included: King James Version, Bible in Basic English, World English Bible, Louis Segond, Ostervald, Darby, Diodati, Reina Valera, Almeida, Schlachter, Elberfelder, Romanian Bible (Romanian Cornilescu 1928), Polish Bible (Biblia Warszawska 1975), Russian Bible (Russian Synodal Translation 1876), Turkish Bible (New Turkish Bible 2001), Swahili Bible (Swahili Union Version 1997), Arabic Bible (Smith and Van Dyke), Hindi Bible, Bengali Bible (Bengali C.L. Bible 2016), Chinese Bible (New Chinese Version Simplified), Japanese Bible (New Japanese Bible 1973), Farsi Bible (Persian Old Version 1895), Korean Bible (Korean Revised Version 1952/1961).</li>
 </ul>
-<p>
-Please share the info with your friends. 
-Time is short. 
-Tribulations are at the door.
-** All The Glory To God.
-</p>
+<p>Please share the info with your friends. Time is short. Tribulations are at the door. ** All The Glory To God.</p>
 <p>
 For the story: the app was created after Bible Multi The Light (Android) and before Bible Multi The Life (Android, iPhone, iPad, Big Sur, Mac, Linux).
 You can find them on their stores or via my website.
@@ -107,6 +107,16 @@ You can find them on their stores or via my website.
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+   <release version="3.6.1" date="2026-02-26">
+     <description>
+       <ul>
+           <li>Settings: Security level</li>
+           <li>Article: Privacy and persecution</li>
+           <li>Farsi Bible: Persian Old Version 1895</li>
+           <li>Korean Bible: Korean Revised Version 1952/1961</li>
+       </ul>
+     </description>
+   </release>
    <release version="3.5.0" date="2025-04-22">
      <description>
        <ul>
@@ -174,66 +184,6 @@ You can find them on their stores or via my website.
             <li>Keep favorites, history when upgrading the app in most cases</li>
         </ul>
       </description>
-    </release>
-    <release version="2.6.0" date="2022-08-30">
-      <description>
-          <p>• About: Website • Article: How to be saved? • Article: Additional tools</p>
-      </description>
-    </release>
-    <release version="2.5.0" date="2022-05-26">
-      <description>
-          <p>• (English) Free ebook: The Rapture Survival Guide</p>
-      </description>
-    </release>
-    <release version="2.4.1" date="2022-04-30">
-      <description>
-• Search style
-      </description>
-    </release>
-    <release version="2.3.0" date="2022-04-04">
-      <description>
-• Clipboard
-      </description>
-    </release>
-    <release version="2.2.0" date="2022-03-27">
-      <description>
-• Favorites
-• Search for specific favorites (F6 or F)
-• Open/Copy an URL (ENTER)
-      </description>
-    </release>
-    <release version="2.1.1" date="2022-03-15">
-      <description>
-• History
-• Cross references
-• Contextual menu
-• +Color modes
-• Fixes
-      </description>
-    </release>
-    <release version="2.1.0" date="2022-03-11">
-      <description>
-• History
-• Cross references
-• Contextual menu
-• +Color modes
-      </description>
-    </release>
-    <release version="2.0.0" date="2022-02-18">
-      <description>
-• English Bible: KJV 2000 (modern English)
-• French Bible: Ostervald
-• Portuguese Bible: Almeida Corrigida Fiel
-• German Bible: Schlachter
-• 2 color modes (with/without colors)
-• +Articles
-• +Youtubers
-• LEFT/RIGHT to browse articles/parables
-• Fixes
-      </description>
-    </release>
-    <release version="1.4.1" date="2022-01-22">
-      <description>Rebirth of the project.</description>
     </release>
   </releases>
 </component>

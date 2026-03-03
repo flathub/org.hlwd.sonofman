@@ -27,7 +27,7 @@ modules:
   - name: sonofman
     buildsystem: simple
     build-commands:
-      - python3 -m pip install . --prefix=${FLATPAK_DEST} --root=/ 
+      - python3 -m pip install . --prefix=${FLATPAK_DEST} --root=/ --no-build-isolation --no-index
       - install -Dm644 org.hlwd.sonofman64x64.png /app/share/icons/hicolor/64x64/apps/org.hlwd.sonofman.png
       - install -Dm644 org.hlwd.sonofman128x128.png /app/share/icons/hicolor/128x128/apps/org.hlwd.sonofman.png
       - install -Dm644 org.hlwd.sonofman.metainfo.xml /app/share/metainfo/org.hlwd.sonofman.metainfo.xml
@@ -35,7 +35,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan.git
-        tag: 'v3.5.0'
+        tag: 'v3.6.1'
       - type: file
         path: org.hlwd.sonofman.metainfo.xml
       - type: file
