@@ -1,6 +1,6 @@
 app-id: org.hlwd.sonofman
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: som
 finish-args:
@@ -35,7 +35,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan.git
-        tag: 'v3.6.1'
+        tag: 'v3.7.0'
       - type: file
         path: org.hlwd.sonofman.metainfo.xml
       - type: file
