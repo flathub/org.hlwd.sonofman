@@ -107,6 +107,17 @@ You can find them on their stores or via my website.
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+   <release version="3.7.0" date="2026-07-02">
+     <description>
+       <ul>
+          <li>Indonesian Bible: Terjemahan Baru 1974</li>
+          <li>Vietnamese Bible: Tiếng Việt 1934</li>
+          <li>Ukrainian Bible: Oгієнко 1962</li>
+          <li>Philippine Bible: Ang Dating Biblia 1905</li>
+          <li>Philippine Bible: Tagalog Unlocked Literal Bible 2018 (Big Thanks to Door43.org for their work)</li>
+       </ul>
+     </description>
+   </release>
    <release version="3.6.1" date="2026-02-26">
      <description>
        <ul>
