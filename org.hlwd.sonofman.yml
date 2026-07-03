@@ -6,6 +6,8 @@ command: som
 finish-args:
   - --socket=x11
   - --share=ipc
+  - --env=LANG=en_US.utf8
+  - --env=LC_ALL=en_US.utf8
 modules:
   - pypi-dependencies.json 
   - name: libxmu-dev
